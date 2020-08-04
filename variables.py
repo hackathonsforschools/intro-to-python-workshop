@@ -17,7 +17,7 @@ username = "cooldog123" # Say we have a variable called 'username' with the valu
 message = "Hello {}, welcome to my cool Python program!".format(username) # Either this way - where we put curly braces is placeholder for unknown
 print(message)
 
-# # OR if we have more variables
+# OR if we have more variables
 
 adjective = "awesome"
 message = "Hello {}, welcome to my {} Python program!".format(username, adjective)
